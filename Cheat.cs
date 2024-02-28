@@ -329,10 +329,10 @@ namespace BasicMonoSDK
                     continue;
 
                 // FOR ONLINE RAIDS
-                if (_Player.GetType() != typeof(ObservedPlayerView))
+                if (_Player.GetType() != typeof(ArenaObservedPlayerView))
                     continue;
 
-                ObservedPlayerView Player = _Player as ObservedPlayerView;
+                ArenaObservedPlayerView Player = _Player as ArenaObservedPlayerView;
                if (Player == null)
                    continue;
                 // FOR ONLINE RAIDS
